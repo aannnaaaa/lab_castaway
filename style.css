@@ -15,19 +15,22 @@ body{
     grid-template-columns: 1fr 0.2fr 0.2fr 0.2fr 1.2fr;
     margin-bottom: 50px;
 }
+
 #change__button{
-    width: 26px;
+    width: 60px;
     cursor: pointer;
     position: relative;
     left:1220px;
-    bottom: 30px;
+    bottom: 45px;
+   
 }
 :root{
-    --primary-color: #191919;
+    --primary-color: #191919f7;
     --secondary-color: white;
     --third-color: #000000;
     --fourth-color: rgba(255, 255, 255, 0.70);
     --fifth-color: #FFF;
+    
 }
 .dark-theme{
     --primary-color: #806b69;
@@ -35,6 +38,7 @@ body{
     --third-color: #3027275b;
     --fourth-color: rgba(255, 255, 255, 0.963);
     --fifth-color: black;
+   
 }
 .nav_list li{
     list-style: none;
@@ -386,7 +390,7 @@ body{
     padding: 0 0 0 20px;
 }
 .subscribe__button{
-    padding: 10px 15px;
+    padding: 15px 15px;
     background: #118DA8;
     border-radius: 6px;
     font-weight: 700;
@@ -419,6 +423,7 @@ body{
     line-height: 79.2px; /* 110% */
     letter-spacing: 2.88px;
 }
+
 .sub__lines{
     position: relative;
     right:98px;
@@ -579,4 +584,7 @@ body{
     font-family: sans-serif;
     padding-top: 15px;
     color: rgba(255, 255, 255, 0.7);
+}
+#dynamicContent{
+    font-family: sans-serif;
 }
